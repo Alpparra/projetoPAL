@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Tungsten;
+    src: url('FontsFree-Net-Tungsten-Bold.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +14,13 @@ html {
 
 body {
     background-color: aliceblue;
-    font-size: 14pt;
+    font-size: 18pt;
 }
 
 .header-container {
     width: 100%;
     background-color: #6688d1;
+    font-family: Tungsten;
 }
 
 .header-container > header {
@@ -24,7 +30,16 @@ body {
     width: 100%;
 }
 
-.header-container > header > nav > a{
+.header-container > header > nav {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.header-container > header > nav > span {
+  
+}
+
+.header-container > header > nav > a {
     display: flex;
     justify-content: center; 
     margin: 0 10px;
@@ -36,12 +51,8 @@ body {
     text-decoration: none;
 }
 
-.header-container > header > nav > a:hover{
+.header-container > header > nav > a:hover {
     background-color: #4f8ecc;
-}
-
-.nav-bar {
-    width: 100%;
 }
 
 .container {
