@@ -1,6 +1,6 @@
 @font-face {
     font-family: Tungsten;
-    src: url('FontsFree-Net-Tungsten-Bold.ttf');
+    src: url('Fontes/FontsFree-Net-Tungsten-Bold.ttf');
 }
 
 * {
@@ -36,7 +36,7 @@ body {
 }
 
 .header-container > header > nav > span {
-  
+    padding: 0 10px;
 }
 
 .header-container > header > nav > a {
