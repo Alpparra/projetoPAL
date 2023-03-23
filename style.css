@@ -1,36 +1,94 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Imagens/favicon1.ico" type="image/x-icon">
-</head>
-<body>
-    <div class="header-container">
-        <header>
-            <nav>
-                <span>Senac Dance</span> 
-                <a href="">Contato</a>
-                <a href="">Sobre</a>
-                <a href="">Membros</a>
-            </nav>
-        </header>
-        <div class="null"></div>
-    </div>
-    <div class="body-container">
-        <div class="container-1">
-            <div class="logo-3d">
-                <span>SENAC DANCE</span>
-                <p>Lorem ipsum dolor sit amet consectetur </p>
-            </div>
-        </div>
-        <div class="container-2"></div>
-        <div class="container-3"></div>
-    </div>
-    <footer></footer>
-    <script src="script.js"></script>
-</body>
-</html>
+@font-face {
+    font-family: Tungsten;
+    src: url('Fontes/FontsFree-Net-Tungsten-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: aliceblue;
+    font-size: 18pt;
+}
+
+.header-container {
+    width: 100%;
+    background-color: #6688d1;
+    font-family: Tungsten;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+} 
+
+.header-container > header {
+    display: flex;
+    align-items: center;
+    height: 7.1vh;
+    width: 100%;
+}
+
+.header-container > header > nav {
+    width: 100%;
+    padding: 0 2.1vh;
+}
+
+.header-container > header > nav > span {
+    padding: 0 1.4vh;
+    font-size: 20pt;
+}
+
+.header-container > header > nav > a {
+    display: flex;
+    justify-content: center; 
+    margin: 0 1.4vh;
+    float: right;
+    border-radius: 1.4vh;
+    color: black;
+    background-color: #92b9df;
+    padding: 0 1.4vh;
+    text-decoration: none;
+}
+
+.header-container > header > nav > a:hover {
+    background-color: #4f8ecc;
+}
+
+.null {
+    height: auto;
+}
+
+.body-container > div {
+    width: 100%;
+    height: 86vh;
+}
+
+.container-1 {
+    background-color: #2e3e61;
+}
+
+.logo-3d {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-3d > span {
+    font-family: Tungsten;
+    font-size: 70pt;
+}
+
+.logo-3d > span:hover {
+    text-shadow: 3px 0 red, -3px 0 cyan;
+}
+
+.logo-3d > p {
+    font-family: Tungsten;
+    font-size: 16pt;
+}
