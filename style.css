@@ -43,10 +43,6 @@ body {
     font-size: 20pt;
 }
 
-.header-container > header > nav > span:hover {
-    color: white;
-}
-
 .header-container > header > nav > a {
     display: flex;
     justify-content: center; 
@@ -57,11 +53,11 @@ body {
     background-color: #92b9df;
     padding: 0 1.4vh;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header-container > header > nav > a:hover {
     background-color: #4f8ecc;
-    color: white;
 }
 
 .null {
